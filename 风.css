@@ -109,7 +109,7 @@ body{
 /* 默认情况 */
 #switch .circle{
 	position: absolute;
-	top: 2px;
+	top: 3px;
 	left: 3px;
 	width: 20px;
 	height: 20px;
@@ -148,6 +148,8 @@ body{
 	justify-content: center;
 	align-items: center;
 	animation: sun_rotate 10s linear infinite;
+	/* background-color: red; */
+	background-color: #F0AD4E;
 }
 
 @keyframes sun_rotate{
@@ -194,18 +196,21 @@ body{
 	height:14px;
 	left:80px;
 	bottom:35px;
+	background-color: #67B168;
 }
 .mountain.b{
 	width:18px;
 	height:18px;
 	left:130px;
 	bottom:45px;
+	background-color: #67B168;
 }
 .mountain.c{
 	width:20px;
 	height:20px;
 	left:190px;
 	bottom:60px;
+	background-color: #67B168;
 }
 .mountain.d{
 	width:2px;
@@ -213,12 +218,14 @@ body{
 	left:240px;
 	bottom:62px;
 	border-bottom: none;
+	background-color: #67B168;
 }
 .mountain.e{
 	width:14px;
 	height:14px;
 	left:285px;
 	bottom:41px;
+	background-color: #67B168;
 }
 
 .mountain.a::after,
@@ -839,7 +846,8 @@ body{
     position: absolute;
     width: 70px;
     height: 15px;
-    background-color: #fff;
+    /* background-color: #fff; */
+	background-color: #00CED1;
     border: 3px solid #333;
     border-radius: 100%;
     transform: rotate(calc(var(--i) * 120deg)) translateX(30px);
