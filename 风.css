@@ -62,6 +62,21 @@ body{
 	z-index: 10000;
 	font-family: "华文仿宋" !important;
 }
+.channel3{
+	position: absolute;
+	width: 80%;
+	text-align: center;
+	top: 80vh;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 4vmin;
+	font-weight: bold;
+	color: #35353588;
+	z-index: 10000;
+	font-family: "楷体" !important;
+	margin-left: -640px;
+	margin-top: 80px;
+}
 
 .container{
 	position: absolute;
