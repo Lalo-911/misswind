@@ -28,6 +28,8 @@ body{
 	width: 100vw;
 	height: 100vh;
 	background-color: var(--backround-color);
+	background-image: linear-gradient(125deg, #27ae60,#00aaff,#ffaa7f,#aa55ff,#aaaaff);
+	background-attachment: fixed;
 	/* background-color: #269ABC; */
 	display: flex;
 	justify-content: center;
